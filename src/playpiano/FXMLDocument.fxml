@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="playpiano.FXMLDocumentController" />
+<AnchorPane id="AnchorPane" prefHeight="457.0" prefWidth="636.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="playpiano.FXMLDocumentController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="114.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="64.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="173.0" layoutX="94.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="164.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="173.0" layoutX="149.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+   </children>
+</AnchorPane>
