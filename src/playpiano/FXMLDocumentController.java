@@ -12,6 +12,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuItem;
 import javafx.scene.media.AudioClip;
 
 /**
@@ -20,10 +22,10 @@ import javafx.scene.media.AudioClip;
  */
 public class FXMLDocumentController implements Initializable {
     
-    
-    
     @FXML
     private Button mC;
+    private Menu file;
+    private MenuItem close;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
