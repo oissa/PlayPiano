@@ -12,12 +12,15 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.media.AudioClip;
 
 /**
  *
  * @author pascale
  */
 public class FXMLDocumentController implements Initializable {
+    
+    
     
     @FXML
     private Button mC;
@@ -27,4 +30,8 @@ public class FXMLDocumentController implements Initializable {
         // TODO
     }    
     
+    @FXML
+    public void playmC(){
+        AudioClip mC = new AudioClip(getClass().getResource("mC.wav").toString());
+    }
 }
