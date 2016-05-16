@@ -67,4 +67,10 @@ public class FXMLDocumentController implements Initializable {
         hC.play();
     }
     
+    @FXML
+    public void playhCsharp(){
+        AudioClip hCsharp = new AudioClip(getClass().getResource("hC#.wav").toString());
+        hCsharp.play();
+    }
+    
 }
