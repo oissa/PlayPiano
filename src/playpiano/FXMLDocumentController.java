@@ -63,8 +63,8 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     public void playmE(){
-        AudioClip mDsharp = new AudioClip(getClass().getResource("mE.wav").toString());
-        mDsharp.play();
+        AudioClip mE = new AudioClip(getClass().getResource("mE.wav").toString());
+        mE.play();
     }
     
     @FXML
