@@ -35,8 +35,8 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="398.0" layoutY="181.0" onMouseReleased="#playhE" stroke="BLACK" strokeType="INSIDE" width="40.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="438.0" layoutY="181.0" onMouseReleased="#playmD" stroke="BLACK" strokeType="INSIDE" width="40.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="478.0" layoutY="181.0" onMouseReleased="#playmD" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="518.0" layoutY="181.0" onMouseReleased="#playmD" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="558.0" layoutY="181.0" onMouseReleased="#playmD" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="518.0" layoutY="181.0" onMouseReleased="#playhA" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="558.0" layoutY="181.0" onMouseReleased="#playhB" stroke="BLACK" strokeType="INSIDE" width="40.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="103.0" layoutY="181.0" onMouseReleased="#playmDsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="183.0" layoutY="181.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="223.0" layoutY="181.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
@@ -44,7 +44,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="343.0" layoutY="181.0" onMouseReleased="#playhCsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="383.0" layoutY="181.0" onMouseReleased="#playhDsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="463.0" layoutY="181.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="503.0" layoutY="181.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="543.0" layoutY="181.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="503.0" layoutY="181.0" onMouseReleased="#playhGsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="543.0" layoutY="181.0" onMouseReleased="#playhAsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
    </children>
 </AnchorPane>
