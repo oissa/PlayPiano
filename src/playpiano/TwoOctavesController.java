@@ -20,7 +20,7 @@ import javafx.scene.media.AudioClip;
  *
  * @author pascale
  */
-public class FXMLDocumentController implements Initializable {
+public class TwoOctavesController implements Initializable {
     
     @FXML
     private Button mC;
