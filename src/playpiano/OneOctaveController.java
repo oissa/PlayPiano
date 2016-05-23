@@ -98,4 +98,8 @@ public class OneOctaveController implements Initializable {
         mB.play();
     }
     
+    @FXML
+    public void handleBackToTwoOctaves(){
+        //TODO
+    }
 }
