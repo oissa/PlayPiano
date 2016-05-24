@@ -48,5 +48,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="503.0" layoutY="181.0" onMouseReleased="#playhGsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="543.0" layoutY="181.0" onMouseReleased="#playhAsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <Button layoutX="89.0" layoutY="79.0" mnemonicParsing="false" onAction="#handleBackToOneOctave" text="One Octave" />
+      <Button layoutX="198.0" layoutY="79.0" mnemonicParsing="false" onAction="#switchToViolin" text="Violin Mode" />
+      <Button layoutX="309.0" layoutY="79.0" mnemonicParsing="false" onAction="#switchToPiano" text="Grand Piano Mode" />
    </children>
 </AnchorPane>
