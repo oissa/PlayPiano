@@ -19,7 +19,7 @@ public class PlayPiano extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("TwoOctaves.fxml"));
         
         Scene scene = new Scene(root);
         
@@ -29,9 +29,10 @@ public class PlayPiano extends Application {
 
     /**
      * @param args the command line arguments
+     * commenting out launch from PlayPiano.java class
      */
-    public static void main(String[] args) {
+     /*public static void main(String[] args) {
         launch(args);
-    }
+     }*/
     
 }
