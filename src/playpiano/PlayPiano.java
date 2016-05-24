@@ -5,7 +5,9 @@
  */
 package playpiano;
 
+import java.io.IOException;
 import javafx.application.Application;
+import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -17,22 +19,40 @@ import javafx.stage.Stage;
  */
 public class PlayPiano extends Application {
     
+    private static PlayPiano appInstance;
+    private Stage mainWindow;
+    
+    public static PlayPiano getAppInstance(){
+        return appInstance;
+    }
+    
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) throws Exception{
+        this.appInstance = this;
+        this.mainWindow = stage;
+        showTwoOctavesView();
+    }
+    
+    public static void main(String[] args) {
+        launch(args);
+    }
+    
+    public void showTwoOctavesView() throws IOException{
         Parent root = FXMLLoader.load(getClass().getResource("TwoOctaves.fxml"));
         
         Scene scene = new Scene(root);
         
-        stage.setScene(scene);
-        stage.show();
+        this.mainWindow.setScene(scene);
+        this.mainWindow.show();
     }
-
-    /**
-     * @param args the command line arguments
-     * commenting out launch from PlayPiano.java class
-     */
-     /*public static void main(String[] args) {
-        launch(args);
-     }*/
+    
+    public void showOneOctaveView() throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("OneOctave.fxml"));
+        
+        Scene scene = new Scene(root);
+        
+        this.mainWindow.setScene(scene);
+        this.mainWindow.show();
+    }
     
 }

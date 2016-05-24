@@ -5,8 +5,11 @@
  */
 package playpiano;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -241,5 +244,14 @@ public class TwoOctavesController implements Initializable {
     public void playhB() {
         AudioClip hB = new AudioClip(getClass().getResource("hB.wav").toString());
         hB.play();
+    }
+    
+    @FXML
+    public void handleBackToOneOctave(){
+        try {
+            PlayPiano.getAppInstance().showOneOctaveView();
+        } catch (IOException ex) {
+            Logger.getLogger(TwoOctavesController.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }

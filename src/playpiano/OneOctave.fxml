@@ -18,6 +18,6 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="312.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="389.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="466.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
-      <Button layoutX="41.0" layoutY="34.0" mnemonicParsing="false" text="Two Octaves" />
+      <Button layoutX="41.0" layoutY="34.0" mnemonicParsing="false" onAction="#handleBackToTwoOctaves" text="Two Octaves" />
    </children>
 </AnchorPane>
