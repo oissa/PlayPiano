@@ -21,162 +21,224 @@ import javafx.scene.media.AudioClip;
  * @author pascale
  */
 public class TwoOctavesController implements Initializable {
-    
+
     @FXML
     private Button mC;
     private Menu file;
     private MenuItem close;
-    
+    Boolean piano = true; 
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
-    
+    }
+
     @FXML
     public void close() {
         System.exit(0);
     }
-    
+
     @FXML
-    public void playmC(){
-        AudioClip mC = new AudioClip(getClass().getResource("mC.wav").toString());
-        mC.play();
+    public void playmC() {
+        if (piano = true) {
+            AudioClip mC = new AudioClip(getClass().getResource("mC.wav").toString());
+            mC.play();
+        } else {
+            AudioClip mC = new AudioClip(getClass().getResource("ViolinmC.wav").toString());
+            mC.play();
+        }
     }
-    
+
     @FXML
-    public void playmCsharp(){
-        AudioClip mCsharp = new AudioClip(getClass().getResource("mC#.wav").toString());
-        mCsharp.play();
+    public void playmCsharp() {
+        if (piano = true) {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("mC#.wav").toString());
+            mCsharp.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmC#.wav").toString());
+            mCsharp.play();
+        }
+
     }
-    
+
     @FXML
-    public void playmD(){
-        AudioClip mD = new AudioClip(getClass().getResource("mD.wav").toString());
-        mD.play();
+    public void playmD() {
+        if (piano = true) {
+            AudioClip mD = new AudioClip(getClass().getResource("mD.wav").toString());
+            mD.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmD.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playmDsharp(){
-        AudioClip mDsharp = new AudioClip(getClass().getResource("mD#.wav").toString());
-        mDsharp.play();
+    public void playmDsharp() {
+        if (piano = true) {
+            AudioClip mDsharp = new AudioClip(getClass().getResource("mD#.wav").toString());
+            mDsharp.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmD#.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playmE(){
-        AudioClip mE = new AudioClip(getClass().getResource("mE.wav").toString());
-        mE.play();
+    public void playmE() {
+        if (piano = true) {
+            AudioClip mE = new AudioClip(getClass().getResource("mE.wav").toString());
+            mE.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmE.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playmF(){
-        AudioClip mF = new AudioClip(getClass().getResource("mF.wav").toString());
-        mF.play();
+    public void playmF() {
+        if (piano = true) {
+            AudioClip mF = new AudioClip(getClass().getResource("mF.wav").toString());
+            mF.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmF.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playmFSharp(){
-        AudioClip mFSharp = new AudioClip(getClass().getResource("mFSharp.wav").toString());
-        mFSharp.play();
+    public void playmFSharp() {
+        if (piano = true) {
+            AudioClip mFSharp = new AudioClip(getClass().getResource("mFSharp.wav").toString());
+            mFSharp.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmF#.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playmG(){
-        AudioClip mG = new AudioClip(getClass().getResource("mG.wav").toString());
-        mG.play();
+    public void playmG() {
+        if (piano = true) {
+            AudioClip mG = new AudioClip(getClass().getResource("mG.wav").toString());
+            mG.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmG.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playmGSharp(){
+    public void playmGSharp() {
         AudioClip mGSharp = new AudioClip(getClass().getResource("mGSharp.wav").toString());
         mGSharp.play();
     }
-    
+
     @FXML
-    public void playmA(){
-        AudioClip mA = new AudioClip(getClass().getResource("mA.wav").toString());
-        mA.play();
+    public void playmA() {
+        if (piano = true) {
+            AudioClip mA = new AudioClip(getClass().getResource("mA.wav").toString());
+            mA.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmA.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playmAsharp(){
-        AudioClip mAsharp = new AudioClip(getClass().getResource("mASharp.wav").toString());
-        mAsharp.play();
+    public void playmAsharp() {
+        if (piano = true) {
+            AudioClip mAsharp = new AudioClip(getClass().getResource("mASharp.wav").toString());
+            mAsharp.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmA#.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playmB(){
-        AudioClip mB = new AudioClip(getClass().getResource("mB.wav").toString());
-        mB.play();
+    public void playmB() {
+        if (piano = true) {
+            AudioClip mB = new AudioClip(getClass().getResource("mB.wav").toString());
+            mB.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinmB.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playhC(){
+    public void playhC() {
         AudioClip hC = new AudioClip(getClass().getResource("hC.wav").toString());
         hC.play();
     }
-    
+
     @FXML
-    public void playhCsharp(){
+    public void playhCsharp() {
         AudioClip hCsharp = new AudioClip(getClass().getResource("hC#.wav").toString());
         hCsharp.play();
     }
-    
+
     @FXML
-    public void playhD(){
+    public void playhD() {
         AudioClip hD = new AudioClip(getClass().getResource("hD.wav").toString());
         hD.play();
     }
-    
+
     @FXML
-    public void playhDsharp(){
+    public void playhDsharp() {
         AudioClip hDsharp = new AudioClip(getClass().getResource("hD#.wav").toString());
         hDsharp.play();
     }
-    
+
     @FXML
-    public void playhE(){
+    public void playhE() {
         AudioClip hE = new AudioClip(getClass().getResource("hE.wav").toString());
         hE.play();
     }
-    
+
     @FXML
-    public void playhF(){
+    public void playhF() {
         AudioClip hF = new AudioClip(getClass().getResource("hF.wav").toString());
         hF.play();
     }
-    
+
     @FXML
-    public void playhFsharp(){
+    public void playhFsharp() {
         AudioClip hFsharp = new AudioClip(getClass().getResource("hF#.wav").toString());
         hFsharp.play();
     }
-    
+
     @FXML
-    public void playhG(){
-        AudioClip hG = new AudioClip(getClass().getResource("hG.wav").toString());
-        hG.play();
+    public void playhG() {
+        if (piano = true) {
+            AudioClip hG = new AudioClip(getClass().getResource("hG.wav").toString());
+            hG.play();
+        } else {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("ViolinhG.wav").toString());
+            mCsharp.play();
+        }
     }
-    
+
     @FXML
-    public void playhGsharp(){
+    public void playhGsharp() {
         AudioClip hGsharp = new AudioClip(getClass().getResource("hG#.wav").toString());
         hGsharp.play();
     }
-    
+
     @FXML
-    public void playhA(){
+    public void playhA() {
         AudioClip hA = new AudioClip(getClass().getResource("hA.wav").toString());
         hA.play();
     }
-    
+
     @FXML
-    public void playhAsharp(){
+    public void playhAsharp() {
         AudioClip hAsharp = new AudioClip(getClass().getResource("hA#.wav").toString());
         hAsharp.play();
     }
-    
+
     @FXML
-    public void playhB(){
+    public void playhB() {
         AudioClip hB = new AudioClip(getClass().getResource("hB.wav").toString());
         hB.play();
     }
