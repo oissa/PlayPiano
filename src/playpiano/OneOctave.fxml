@@ -6,18 +6,18 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="playpiano.OneOctaveController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="31.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="108.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="185.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="262.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="339.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="416.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="493.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="81.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="158.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="312.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="389.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="466.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="31.0" layoutY="104.0" onMouseReleased="#playmC" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="108.0" layoutY="104.0" onMouseReleased="#playmD" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="185.0" layoutY="104.0" onMouseReleased="#playmE" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="262.0" layoutY="104.0" onMouseReleased="#playmF" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="339.0" layoutY="104.0" onMouseReleased="#playmG" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="416.0" layoutY="104.0" onMouseReleased="#playmA" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="263.0" layoutX="493.0" layoutY="104.0" onMouseReleased="#playmB" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="81.0" layoutY="104.0" onMouseReleased="#playmCsharp" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="158.0" layoutY="104.0" onMouseReleased="#playmDsharp" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="312.0" layoutY="104.0" onMouseReleased="#playmFSharp" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="389.0" layoutY="104.0" onMouseReleased="#playmGSharp" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="466.0" layoutY="104.0" onMouseReleased="#playmAsharp" stroke="BLACK" strokeType="INSIDE" width="55.0" />
       <Button layoutX="41.0" layoutY="34.0" mnemonicParsing="false" onAction="#handleBackToTwoOctaves" text="Two Octaves" />
    </children>
 </AnchorPane>
