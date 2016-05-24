@@ -21,12 +21,13 @@ import javafx.scene.media.AudioClip;
  * @author pascale
  */
 public class TwoOctavesController implements Initializable {
-
+    public Boolean piano = true; 
+    
     @FXML
     private Button mC;
     private Menu file;
     private MenuItem close;
-    Boolean piano = true; 
+    
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -40,7 +41,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmC() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mC = new AudioClip(getClass().getResource("mC.wav").toString());
             mC.play();
         } else {
@@ -51,7 +52,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmCsharp() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mCsharp = new AudioClip(getClass().getResource("mC#.wav").toString());
             mCsharp.play();
         } else {
@@ -63,7 +64,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmD() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mD = new AudioClip(getClass().getResource("mD.wav").toString());
             mD.play();
         } else {
@@ -74,7 +75,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmDsharp() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mDsharp = new AudioClip(getClass().getResource("mD#.wav").toString());
             mDsharp.play();
         } else {
@@ -85,7 +86,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmE() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mE = new AudioClip(getClass().getResource("mE.wav").toString());
             mE.play();
         } else {
@@ -96,7 +97,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmF() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mF = new AudioClip(getClass().getResource("mF.wav").toString());
             mF.play();
         } else {
@@ -107,7 +108,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmFSharp() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mFSharp = new AudioClip(getClass().getResource("mFSharp.wav").toString());
             mFSharp.play();
         } else {
@@ -118,7 +119,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmG() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mG = new AudioClip(getClass().getResource("mG.wav").toString());
             mG.play();
         } else {
@@ -135,7 +136,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmA() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mA = new AudioClip(getClass().getResource("mA.wav").toString());
             mA.play();
         } else {
@@ -146,7 +147,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmAsharp() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mAsharp = new AudioClip(getClass().getResource("mASharp.wav").toString());
             mAsharp.play();
         } else {
@@ -157,7 +158,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmB() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip mB = new AudioClip(getClass().getResource("mB.wav").toString());
             mB.play();
         } else {
@@ -210,7 +211,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playhG() {
-        if (piano = true) {
+        if (piano == true) {
             AudioClip hG = new AudioClip(getClass().getResource("hG.wav").toString());
             hG.play();
         } else {
