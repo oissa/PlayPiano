@@ -5,10 +5,48 @@
  */
 package playpiano;
 
+import java.io.IOException;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
 /**
  *
  * @author pascale
  */
-public class OctaveSwitcher {
+public class OctaveSwitcher extends Application{
+    private static OctaveSwitcher appInstance;
+    private Stage mainWindow;
+    
+    @Override
+    public void start(Stage stage) throws Exception{
+        this.appInstance = this;
+        this.mainWindow = stage;
+        showTwoOctavesView();
+    }
+    
+    public static void main(String[] args) {
+        launch(args);
+    }
+    
+    public void showTwoOctavesView() throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("TwoOctaves.fxml"));
+        
+        Scene scene = new Scene(root);
+        
+        this.mainWindow.setScene(scene);
+        this.mainWindow.show();
+    }
+    
+    public void showOneOctavesView() throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("OneOctave.fxml"));
+        
+        Scene scene = new Scene(root);
+        
+        this.mainWindow.setScene(scene);
+        this.mainWindow.show();
+    }
     
 }
