@@ -52,46 +52,60 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmC() {
-        AudioClip mC = new AudioClip(getClass().getResource("mC.wav").toString());
-        mC.play();
+        if (piano == true) {
+            AudioClip mC = new AudioClip(getClass().getResource("mC.wav").toString());
+            mC.play();
+        }
     }
 
     @FXML
     public void playmCsharp() {
-        AudioClip mCsharp = new AudioClip(getClass().getResource("mC#.wav").toString());
-        mCsharp.play();
+        if (piano == true) {
+            AudioClip mCsharp = new AudioClip(getClass().getResource("mC#.wav").toString());
+            mCsharp.play();
+        }
 
     }
 
     @FXML
     public void playmD() {
-        AudioClip mD = new AudioClip(getClass().getResource("mD.wav").toString());
-        mD.play();
+        if (piano == true) {
+            AudioClip mD = new AudioClip(getClass().getResource("mD.wav").toString());
+            mD.play();
+        }
     }
 
     @FXML
     public void playmDsharp() {
-        AudioClip mDsharp = new AudioClip(getClass().getResource("mD#.wav").toString());
-        mDsharp.play();
+        if (piano == true) {
+            AudioClip mDsharp = new AudioClip(getClass().getResource("mD#.wav").toString());
+            mDsharp.play();
+        }
     }
     
 
     @FXML
     public void playmE() {
+        if (piano == true) {
             AudioClip mE = new AudioClip(getClass().getResource("mE.wav").toString());
             mE.play();
+        }
     }
 
     @FXML
     public void playmF() {
-        AudioClip mF = new AudioClip(getClass().getResource("mF.wav").toString());
-        mF.play();
+        if (piano == true){
+            AudioClip mF = new AudioClip(getClass().getResource("mF.wav").toString());
+            mF.play();
+        }
     }
 
     @FXML
     public void playmFSharp() {
-        AudioClip mFSharp = new AudioClip(getClass().getResource("mFSharp.wav").toString());
-        mFSharp.play();
+        if (piano == true){
+            AudioClip mFSharp = new AudioClip(getClass().getResource("mFSharp.wav").toString());
+            mFSharp.play();
+        }
     }
 
     @FXML
@@ -239,26 +253,34 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playhGsharp() {
-        AudioClip hGsharp = new AudioClip(getClass().getResource("hG#.wav").toString());
-        hGsharp.play();
+        if (piano == true) {
+            AudioClip hGsharp = new AudioClip(getClass().getResource("hG#.wav").toString());
+            hGsharp.play();
+        }
     }
 
     @FXML
     public void playhA() {
-        AudioClip hA = new AudioClip(getClass().getResource("hA.wav").toString());
-        hA.play();
+        if (piano == true) {
+            AudioClip hA = new AudioClip(getClass().getResource("hA.wav").toString());
+            hA.play();
+        }
     }
 
     @FXML
     public void playhAsharp() {
-        AudioClip hAsharp = new AudioClip(getClass().getResource("hA#.wav").toString());
-        hAsharp.play();
+        if (piano == true){
+            AudioClip hAsharp = new AudioClip(getClass().getResource("hA#.wav").toString());
+            hAsharp.play();
+        }
     }
 
     @FXML
     public void playhB() {
-        AudioClip hB = new AudioClip(getClass().getResource("hB.wav").toString());
-        hB.play();
+        if (piano == true) {
+            AudioClip hB = new AudioClip(getClass().getResource("hB.wav").toString());
+            hB.play();
+        }
     }
     
     @FXML
