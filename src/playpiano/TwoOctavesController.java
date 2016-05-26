@@ -261,7 +261,7 @@ public class TwoOctavesController implements Initializable {
     }
 
     @FXML
-    private void playhA() {
+    public void playhA() {
         if (piano == true) {
             AudioClip hA = new AudioClip(getClass().getResource("hA.wav").toString());
             hA.play();
@@ -269,7 +269,7 @@ public class TwoOctavesController implements Initializable {
     }
 
     @FXML
-    private void playhAsharp() {
+    public void playhAsharp() {
         if (piano == true){
             AudioClip hAsharp = new AudioClip(getClass().getResource("hA#.wav").toString());
             hAsharp.play();
@@ -277,7 +277,7 @@ public class TwoOctavesController implements Initializable {
     }
 
     @FXML
-    private void playhB() {
+    public void playhB() {
         if (piano == true) {
             AudioClip hB = new AudioClip(getClass().getResource("hB.wav").toString());
             hB.play();
@@ -285,7 +285,7 @@ public class TwoOctavesController implements Initializable {
     }
     
     @FXML
-    private void handleBackToOneOctave(){
+    public void handleBackToOneOctave(){
         try {
             PlayPiano.getAppInstance().showOneOctaveView();
         } catch (IOException ex) {
