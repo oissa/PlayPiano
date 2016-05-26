@@ -103,7 +103,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmFSharp() {
-        if (piano == true) {
+        if (piano == true){
             AudioClip mFSharp = new AudioClip(getClass().getResource("mFSharp.wav").toString());
             mFSharp.play();
         }
@@ -111,7 +111,7 @@ public class TwoOctavesController implements Initializable {
 
     @FXML
     public void playmG() {
-        if (piano == true) {
+        if (piano == true){
             AudioClip mG = new AudioClip(getClass().getResource("mG.wav").toString());
             mG.play();
         } else {
