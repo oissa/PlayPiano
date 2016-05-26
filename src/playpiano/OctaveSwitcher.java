@@ -16,9 +16,13 @@ import javafx.stage.Stage;
  *
  * @author pascale
  */
-public class OctaveSwitcher extends Application{
-    private static OctaveSwitcher appInstance;
+public class OctaveSwitcher{
+    /*private static OctaveSwitcher appInstance;
     private Stage mainWindow;
+    
+    public static OctaveSwitcher getAppInstance(){
+        return appInstance;
+    }
     
     @Override
     public void start(Stage stage) throws Exception{
@@ -40,13 +44,13 @@ public class OctaveSwitcher extends Application{
         this.mainWindow.show();
     }
     
-    public void showOneOctavesView() throws IOException{
+    public void showOneOctaveView() throws IOException{
         Parent root = FXMLLoader.load(getClass().getResource("OneOctave.fxml"));
         
         Scene scene = new Scene(root);
         
         this.mainWindow.setScene(scene);
         this.mainWindow.show();
-    }
+    }*/
     
 }
