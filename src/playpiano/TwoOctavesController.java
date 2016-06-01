@@ -96,12 +96,12 @@ public class TwoOctavesController implements Initializable {
     }
 
     @FXML
-    public void playmFSharp() {
+    public void setmFSharp() {
         currentNote = "mF#";
     }
 
     @FXML
-    public void playmG() {
+    public void setmG() {
         currentNote = "mG";
     }
 
@@ -111,77 +111,77 @@ public class TwoOctavesController implements Initializable {
     }
 
     @FXML
-    public void playmA() {
+    public void setmA() {
         currentNote = "mA";
     }
 
     @FXML
-    public void playmAsharp() {
+    public void setmAsharp() {
         currentNote = "mA#";
     }
 
     @FXML
-    public void playmB() {
+    public void setmB() {
         currentNote = "mB";
     }
 
     @FXML
-    public void playhC() {
+    public void sethC() {
         currentNote = "hC";
     }
 
     @FXML
-    public void playhCsharp() {
+    public void sethCsharp() {
         currentNote = "hC#";
     }
 
     @FXML 
-    public void playhD() {
+    public void sethD() {
         currentNote = "hD";
     }
 
     @FXML
-    public void playhDsharp() {
+    public void sethDsharp() {
         currentNote = "hD#";
     }
 
     @FXML
-    public void playhE() {
+    public void sethE() {
         currentNote = "hE";
     }
 
     @FXML
-    public void playhF() {
+    public void sethF() {
         currentNote = "hF";
     }
 
     @FXML
-    public void playhFsharp() {
+    public void sethFsharp() {
         currentNote = "hF#";
     }
 
     @FXML
-    public void playhG() {
+    public void sethG() {
         currentNote = "hG";
     }
 
     @FXML
-    public void playhGsharp() {
+    public void sethGsharp() {
         currentNote = "hG#";
     }
 
     @FXML
-    public void playhA() {
+    public void sethA() {
         currentNote = "hA";
     }
 
     @FXML
-    public void playhAsharp() {
+    public void sethAsharp() {
         currentNote = "hA#";
     }
 
     @FXML
-    public void playhB() {
+    public void sethB() {
         currentNote = "hB";
     }
     

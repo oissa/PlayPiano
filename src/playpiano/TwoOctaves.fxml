@@ -11,7 +11,7 @@
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="78.0" layoutY="181.0" onMousePressed="#setmD" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="38.0" layoutY="181.0" onMousePressed="#setmC" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="62.0" layoutY="181.0" onMouseReleased="#playmCsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="62.0" layoutY="181.0" onMousePressed="#setmCSharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
@@ -26,27 +26,27 @@
           </Menu>
         </menus>
       </MenuBar>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="118.0" layoutY="181.0" onMouseReleased="#playmE" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="158.0" layoutY="181.0" onMouseReleased="#playmF" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="198.0" layoutY="181.0" onMouseReleased="#playmG" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="238.0" layoutY="181.0" onMouseReleased="#playmA" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="278.0" layoutY="181.0" onMouseReleased="#playmB" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="318.0" layoutY="181.0" onMouseReleased="#playhC" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="358.0" layoutY="181.0" onMouseReleased="#playhD" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="398.0" layoutY="181.0" onMouseReleased="#playhE" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="438.0" layoutY="181.0" onMouseReleased="#playhF" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="478.0" layoutY="181.0" onMouseReleased="#playhG" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="518.0" layoutY="181.0" onMouseReleased="#playhA" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="558.0" layoutY="181.0" onMouseReleased="#playhB" stroke="BLACK" strokeType="INSIDE" width="40.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="103.0" layoutY="181.0" onMouseReleased="#playmDsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="183.0" layoutY="181.0" onMouseReleased="#playmFSharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="223.0" layoutY="181.0" onMouseReleased="#playmGSharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="263.0" layoutY="181.0" onMouseReleased="#playmAsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="343.0" layoutY="181.0" onMouseReleased="#playhCsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="383.0" layoutY="181.0" onMouseReleased="#playhDsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="463.0" layoutY="181.0" onMouseReleased="#playhFsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="503.0" layoutY="181.0" onMouseReleased="#playhGsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="543.0" layoutY="181.0" onMouseReleased="#playhAsharp" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="118.0" layoutY="181.0" onMousePressed="#setmE" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="158.0" layoutY="181.0" onMousePressed="#setmF" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="198.0" layoutY="181.0" onMousePressed="#setmG" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="238.0" layoutY="181.0" onMousePressed="#setmA" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="278.0" layoutY="181.0" onMousePressed="#setmB" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="318.0" layoutY="181.0" onMousePressed="#sethC" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="358.0" layoutY="181.0" onMousePressed="#sethD" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="398.0" layoutY="181.0" onMousePressed="#sethE" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="438.0" layoutY="181.0" onMousePressed="#sethF" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="478.0" layoutY="181.0" onMousePressed="#sethG" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="518.0" layoutY="181.0" onMousePressed="#sethA" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="558.0" layoutY="181.0" onMousePressed="#sethB" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="103.0" layoutY="181.0" onMousePressed="#setmDsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="183.0" layoutY="181.0" onMousePressed="#setmFSharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="223.0" layoutY="181.0" onMousePressed="#setmGSharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="263.0" layoutY="181.0" onMousePressed="#setmAsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="343.0" layoutY="181.0" onMousePressed="#sethCsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="383.0" layoutY="181.0" onMousePressed="#sethDsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="463.0" layoutY="181.0" onMousePressed="#sethFsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="503.0" layoutY="181.0" onMousePressed="#sethGsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="543.0" layoutY="181.0" onMousePressed="#sethAsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <Button layoutX="89.0" layoutY="79.0" mnemonicParsing="false" onAction="#handleBackToOneOctave" text="One Octave" />
       <Button layoutX="198.0" layoutY="79.0" mnemonicParsing="false" onAction="#switchToViolin" text="Violin Mode" />
       <Button layoutX="309.0" layoutY="79.0" mnemonicParsing="false" onAction="#switchToPiano" text="Grand Piano Mode" />
