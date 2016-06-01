@@ -39,6 +39,66 @@ public class ThreeOctavesController implements Initializable {
     }
     
     @FXML
+    public void setlC(){
+        currentNote = "mC";
+    }
+    
+    @FXML
+    public void setlCSharp(){
+        currentNote = "mC#";
+    }
+    
+    @FXML
+    public void setlD(){
+        currentNote = "mD";
+    }
+    
+    @FXML
+    public void setlDsharp() {
+        currentNote = "mD#";
+    }
+    
+    @FXML
+    public void setlE() {
+        currentNote = "mE";
+    }
+
+    @FXML
+    public void setlF() {
+        currentNote = "mF";
+    }
+
+    @FXML
+    public void setlFSharp() {
+        currentNote = "mF#";
+    }
+
+    @FXML
+    public void setlG() {
+        currentNote = "mG";
+    }
+
+    @FXML
+    public void setlGSharp() {
+        currentNote = "mG#";
+    }
+
+    @FXML
+    public void setlA() {
+        currentNote = "mA";
+    }
+
+    @FXML
+    public void setlAsharp() {
+        currentNote = "mA#";
+    }
+
+    @FXML
+    public void setlB() {
+        currentNote = "mB";
+    }
+    
+    @FXML
     public void setmC(){
         currentNote = "mC";
     }
