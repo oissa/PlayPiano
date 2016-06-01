@@ -19,5 +19,6 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="389.0" layoutY="104.0" onMouseReleased="#playmGSharp" stroke="BLACK" strokeType="INSIDE" width="55.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="168.0" layoutX="466.0" layoutY="104.0" onMouseReleased="#playmAsharp" stroke="BLACK" strokeType="INSIDE" width="55.0" />
       <Button layoutX="41.0" layoutY="34.0" mnemonicParsing="false" onAction="#handleBackToTwoOctaves" text="Two Octaves" />
+      <Button layoutX="158.0" layoutY="34.0" mnemonicParsing="false" onAction="#handleBackToThreeOctaves" text="Three Octaves" />
    </children>
 </AnchorPane>

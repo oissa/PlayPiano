@@ -193,4 +193,13 @@ public class TwoOctavesController implements Initializable {
             Logger.getLogger(TwoOctavesController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    @FXML
+    public void handleBackToThreeOctaves(){
+        try {
+            PlayPiano.getAppInstance().showThreeOctavesView();
+        } catch (IOException ex) {
+            Logger.getLogger(TwoOctavesController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }

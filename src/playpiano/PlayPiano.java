@@ -55,4 +55,13 @@ public class PlayPiano extends Application {
         this.mainWindow.show();
     }
     
+    public void showThreeOctavesView() throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("ThreeOctaves.fxml"));
+        
+        Scene scene = new Scene(root);
+        
+        this.mainWindow.setScene(scene);
+        this.mainWindow.show();
+    }
+    
 }
