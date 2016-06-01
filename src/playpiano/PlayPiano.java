@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  *
  * @author pascale
  */
-public class PlayPiano extends Application {
+public class PlayPiano extends Application {    
     
     private static PlayPiano appInstance;
     private Stage mainWindow;
