@@ -21,6 +21,8 @@ import javafx.scene.media.AudioClip;
  * @author pascale
  */
 public class ThreeOctavesController implements Initializable {
+    
+    private Boolean piano = true; 
   
     @FXML
     private String currentNote;
@@ -39,9 +41,27 @@ public class ThreeOctavesController implements Initializable {
     }
     
     @FXML
+    public void switchToViolin(){
+        piano = false;
+    }
+    
+    @FXML
+    public void switchToPiano(){
+        piano = true;
+    }
+    
+    @FXML
     public void play(){
-        AudioClip note = new AudioClip(getClass().getResource(currentNote + ".wav").toString());
-        note.play();
+        if (piano == true){
+            AudioClip note = new AudioClip(getClass().getResource(currentNote + ".wav").toString());
+            note.play();
+        } else {
+            try {
+                AudioClip note = new AudioClip(getClass().getResource("v" + currentNote + ".wav").toString());
+                note.play();
+            } catch (NullPointerException e) {
+            }
+        }
     }
     
     @FXML

@@ -57,6 +57,12 @@
                   <MenuItem mnemonicParsing="false" onAction="#handleBackToTwoOctaves" text="Two Octaves" />
             </items>
           </Menu>
+            <Menu mnemonicParsing="false" text="Instrument">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#switchToViolin" text="Violin" />
+                  <MenuItem mnemonicParsing="false" onAction="#switchToPiano" text="Piano" />
+              </items>
+            </Menu>
         </menus>
       </MenuBar>
    </children>

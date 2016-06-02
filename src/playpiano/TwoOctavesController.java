@@ -26,7 +26,7 @@ import javafx.scene.shape.Rectangle;
  * @author pascale
  */
 public class TwoOctavesController implements Initializable {
-    public Boolean piano = true; 
+    private Boolean piano = true; 
     
     @FXML
     private Menu file;
