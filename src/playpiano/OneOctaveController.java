@@ -30,6 +30,11 @@ public class OneOctaveController implements Initializable {
     }    
     
     @FXML
+    public void close() {
+        System.exit(0);
+    }
+    
+    @FXML
     public void playmC(){
         AudioClip mC = new AudioClip(getClass().getResource("mC.wav").toString());
         mC.play();

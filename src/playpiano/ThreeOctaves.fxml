@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 
@@ -42,7 +44,20 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="92.0" layoutX="478.0" layoutY="173.0" onMousePressed="#sethFsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="18.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="92.0" layoutX="503.0" layoutY="173.0" onMousePressed="#sethGsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="18.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="92.0" layoutX="528.0" layoutY="173.0" onMousePressed="#sethAsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="18.0" />
-      <Button layoutX="86.0" layoutY="80.0" mnemonicParsing="false" onAction="#handleBackToOneOctave" text="One Octave" />
-      <Button layoutX="204.0" layoutY="80.0" mnemonicParsing="false" onAction="#handleBackToTwoOctaves" text="Two Octaves" />
+      <MenuBar layoutX="1.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#close" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Octaves">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleBackToOneOctave" text="One Octave" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleBackToTwoOctaves" text="Two Octaves" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
    </children>
 </AnchorPane>

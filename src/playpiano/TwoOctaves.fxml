@@ -19,11 +19,18 @@
               <MenuItem mnemonicParsing="false" onAction="#close" text="Close" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Help">
-            <items>
-              <MenuItem mnemonicParsing="false" text="About" />
-            </items>
-          </Menu>
+            <Menu mnemonicParsing="false" text="Octaves">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#handleBackToOneOctave" text="One Octave" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleBackToThreeOctaves" text="Three Octaves" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Instrument">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#switchToViolin" text="Violin" />
+                  <MenuItem mnemonicParsing="false" onAction="#switchToPiano" text="Piano" />
+              </items>
+            </Menu>
         </menus>
       </MenuBar>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="118.0" layoutY="181.0" onMousePressed="#setmE" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="40.0" />
@@ -47,9 +54,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="463.0" layoutY="181.0" onMousePressed="#sethFsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="503.0" layoutY="181.0" onMousePressed="#sethGsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" height="120.0" layoutX="543.0" layoutY="181.0" onMousePressed="#sethAsharp" onMouseReleased="#play" stroke="BLACK" strokeType="INSIDE" width="30.0" />
-      <Button layoutX="89.0" layoutY="79.0" mnemonicParsing="false" onAction="#handleBackToOneOctave" text="One Octave" />
       <Button layoutX="329.0" layoutY="79.0" mnemonicParsing="false" onAction="#switchToViolin" text="Violin Mode" />
       <Button layoutX="438.0" layoutY="79.0" mnemonicParsing="false" onAction="#switchToPiano" text="Grand Piano Mode" />
-      <Button layoutX="201.0" layoutY="79.0" mnemonicParsing="false" onAction="#handleBackToThreeOctaves" text="Three Octaves" />
    </children>
 </AnchorPane>

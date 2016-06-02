@@ -12,6 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Menu;
 import javafx.scene.media.AudioClip;
 
 /**
@@ -23,7 +24,7 @@ public class ThreeOctavesController implements Initializable {
   
     @FXML
     private String currentNote;
-
+    
     /**
      * Initializes the controller class.
      */
@@ -31,6 +32,11 @@ public class ThreeOctavesController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+    
+    @FXML
+    public void close() {
+        System.exit(0);
+    }
     
     @FXML
     public void play(){
