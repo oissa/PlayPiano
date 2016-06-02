@@ -6,6 +6,7 @@
 package playpiano;
 
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
@@ -60,8 +61,11 @@ public class TwoOctavesController implements Initializable {
             AudioClip note = new AudioClip(getClass().getResource(currentNote + ".wav").toString());
             note.play();
         } else {
-            AudioClip note = new AudioClip(getClass().getResource("v" + currentNote + ".wav").toString());
-            note.play();
+            try {
+                AudioClip note = new AudioClip(getClass().getResource("v" + currentNote + ".wav").toString());
+                note.play();
+            } catch (NullPointerException e) {
+            }
         }
     }
     
