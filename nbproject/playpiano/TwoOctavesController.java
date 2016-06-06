@@ -6,41 +6,40 @@
 package playpiano;
 
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javafx.animation.FadeTransition;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.Menu;
+import javafx.scene.control.MenuItem;
 import javafx.scene.media.AudioClip;
 import javafx.scene.shape.Rectangle;
-import javafx.util.Duration;
 
 /**
- * FXML Controller class
  *
  * @author pascale
  */
-public class ThreeOctavesController implements Initializable {
-    
+public class TwoOctavesController implements Initializable {
     private Boolean piano = true; 
-  
+    
     @FXML
+    private Menu file;
+    private MenuItem close;
     private String currentNote;
     
-    @FXML
-    private Rectangle key;
     
-    /**
-     * Initializes the controller class.
-     */
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
-    
+    }
+
     @FXML
     public void close() {
         System.exit(0);
@@ -59,87 +58,15 @@ public class ThreeOctavesController implements Initializable {
     @FXML
     public void play(){
         if (piano == true){
-             FadeTransition ft = new FadeTransition(Duration.millis(380), key);
-            ft.setFromValue(1.0);
-            ft.setToValue(0.03);
-            ft.setCycleCount(2);
-            ft.setAutoReverse(true);
-            ft.play();
             AudioClip note = new AudioClip(getClass().getResource(currentNote + ".wav").toString());
             note.play();
         } else {
             try {
-                 FadeTransition ft = new FadeTransition(Duration.millis(380), key);
-                ft.setFromValue(1.0);
-                ft.setToValue(0.03);
-                ft.setCycleCount(2);
-                ft.setAutoReverse(true);
-                ft.play();
                 AudioClip note = new AudioClip(getClass().getResource("v" + currentNote + ".wav").toString());
                 note.play();
             } catch (NullPointerException e) {
             }
         }
-    }
-    
-    @FXML
-    public void setlC(){
-        currentNote = "lC";
-    }
-    
-    @FXML
-    public void setlCSharp(){
-        currentNote = "lC#";
-    }
-    
-    @FXML
-    public void setlD(){
-        currentNote = "lD";
-    }
-    
-    @FXML
-    public void setlDsharp() {
-        currentNote = "lD#";
-    }
-    
-    @FXML
-    public void setlE() {
-        currentNote = "lE";
-    }
-
-    @FXML
-    public void setlF() {
-        currentNote = "lF";
-    }
-
-    @FXML
-    public void setlFSharp() {
-        currentNote = "lF#";
-    }
-
-    @FXML
-    public void setlG() {
-        currentNote = "lG";
-    }
-
-    @FXML
-    public void setlGSharp() {
-        currentNote = "lG#";
-    }
-
-    @FXML
-    public void setlA() {
-        currentNote = "lA";
-    }
-
-    @FXML
-    public void setlAsharp() {
-        currentNote = "lA#";
-    }
-
-    @FXML
-    public void setlB() {
-        currentNote = "lB";
     }
     
     @FXML
@@ -267,17 +194,16 @@ public class ThreeOctavesController implements Initializable {
         try {
             PlayPiano.getAppInstance().showOneOctaveView();
         } catch (IOException ex) {
-            Logger.getLogger(ThreeOctavesController.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(TwoOctavesController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
     @FXML
-    public void handleBackToTwoOctaves(){
+    public void handleBackToThreeOctaves(){
         try {
-            PlayPiano.getAppInstance().showTwoOctavesView();
+            PlayPiano.getAppInstance().showThreeOctavesView();
         } catch (IOException ex) {
-            Logger.getLogger(ThreeOctavesController.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(TwoOctavesController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
 }

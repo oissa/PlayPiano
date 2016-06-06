@@ -58,8 +58,9 @@ public class ThreeOctavesController implements Initializable {
     
     @FXML
     public void play(){
+        
         if (piano == true){
-             FadeTransition ft = new FadeTransition(Duration.millis(380), key);
+            FadeTransition ft = new FadeTransition(Duration.millis(380), key);
             ft.setFromValue(1.0);
             ft.setToValue(0.03);
             ft.setCycleCount(2);
@@ -69,7 +70,7 @@ public class ThreeOctavesController implements Initializable {
             note.play();
         } else {
             try {
-                 FadeTransition ft = new FadeTransition(Duration.millis(380), key);
+                FadeTransition ft = new FadeTransition(Duration.millis(380), key);
                 ft.setFromValue(1.0);
                 ft.setToValue(0.03);
                 ft.setCycleCount(2);
